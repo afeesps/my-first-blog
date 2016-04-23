@@ -54,8 +54,8 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
- /*background-color: #18bc9c; */
-  background: #d8d8d8;
+ background-color: #18bc9c;
+  /*background: #d8d8d8;*/
   color: #3e3f3d;
 }
 hr.star-primary {
@@ -70,10 +70,10 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
- /* background: #18bc9c;*/
-   background: #d8d8d8;
+  background: #18bc9c;
+  /* background: #d8d8d8; */
  /* color: white; commented by afees */
-  color:#3e3f3d;
+   color:#3e3f3d;
  
 }
 header .container {
