@@ -54,9 +54,11 @@ hr.star-light {
   border-color: white;
 }
 hr.star-light:after {
- background-color: #18bc9c;
+/* background-color: #18bc9c;*/
   /*background: #d8d8d8;*/
-  color: #3e3f3d;
+  /*color: #3e3f3d;*/
+  color: #ffffff;
+  background-color::#b84d45;
 }
 hr.star-primary {
   border-color: #2c3e50;
@@ -68,12 +70,16 @@ hr.star-primary:after {
 .img-centered {
   margin: 0 auto;
 }
+
+
 header {
   text-align: center;
-  background: #18bc9c;
-  /* background: #d8d8d8; */
+  /*background: #18bc9c;*/
+   background: #b84d45;
  /* color: white; commented by afees */
-   color:#3e3f3d;
+  background-image:url("http://sbootstrap.startbootstrapc.netdna-cdn.com/assets/img/bg.png") ;
+   /*color:#3e3f3d;*/
+   color:#ffffff;
  
 }
 header .container {
@@ -86,9 +92,10 @@ header img {
 }
 header .intro-text .name {
   display: block;
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ /* font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; */
+     font-family: Roboto,sans-serif;
   /*text-transform: uppercase; removing the upper case */
-  font-weight: 700;
+  font-weight: 600;
   font-size: 2em;
 }
 header .intro-text .skills {
