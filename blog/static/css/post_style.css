@@ -1,0 +1,40 @@
+.btn,div>a.btntitle {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #354d5e;
+  padding: 7px 21px 8px 23px;
+  text-decoration: none;
+}
+
+a.btntitle:hover{
+  color: #efefef ;
+  text-decoration: none;
+}
+
+
+.btn_container{
+	
+	padding:20px;
+}
+
+
+.css-typing
+{
+    width: 30em;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
+
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
