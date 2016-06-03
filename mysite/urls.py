@@ -16,7 +16,16 @@ Including another URLconf
 from django.conf.urls import include, url, patterns
 from django.contrib import admin
 
-urlpatterns =[
+"""urlpatterns =[
     url(r'^admin/', admin.site.urls),
-    url(r'^', include('blog.urls')),
+    url(r'', include('blog.urls')),
+   
 ]
+
+"""
+
+urlpatterns =patterns('',
+    url(r'^admin/', admin.site.urls),
+    url(r'', include('blog.urls')),
+   )
+
